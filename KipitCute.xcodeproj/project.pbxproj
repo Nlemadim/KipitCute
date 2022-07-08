@@ -17,6 +17,9 @@
 		0B7769D3287148B60001CD4A /* KipitCuteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7769D2287148B60001CD4A /* KipitCuteTests.swift */; };
 		0B7769DD287148B60001CD4A /* KipitCuteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7769DC287148B60001CD4A /* KipitCuteUITests.swift */; };
 		0B7769DF287148B60001CD4A /* KipitCuteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7769DE287148B60001CD4A /* KipitCuteUITestsLaunchTests.swift */; };
+		5E684703482756347F584187 /* Pods_KipitCuteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B1BAD0D7C330896C228B5D /* Pods_KipitCuteTests.framework */; };
+		6B752ABF1ADB01A653BB7BB8 /* Pods_KipitCute_KipitCuteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B351F242D68A19698BF66777 /* Pods_KipitCute_KipitCuteUITests.framework */; };
+		7DFB1EE87512FC97315CE837 /* Pods_KipitCute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A883B524E96F2D902967D51 /* Pods_KipitCute.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,15 @@
 		0B7769D8287148B60001CD4A /* KipitCuteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KipitCuteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B7769DC287148B60001CD4A /* KipitCuteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KipitCuteUITests.swift; sourceTree = "<group>"; };
 		0B7769DE287148B60001CD4A /* KipitCuteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KipitCuteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		338C85AD6CCF2E61031A9050 /* Pods-KipitCute.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KipitCute.release.xcconfig"; path = "Target Support Files/Pods-KipitCute/Pods-KipitCute.release.xcconfig"; sourceTree = "<group>"; };
+		387D6C14345B085B76882C29 /* Pods-KipitCuteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KipitCuteTests.release.xcconfig"; path = "Target Support Files/Pods-KipitCuteTests/Pods-KipitCuteTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F12C92B776FE83E264F4EFC /* Pods-KipitCute.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KipitCute.debug.xcconfig"; path = "Target Support Files/Pods-KipitCute/Pods-KipitCute.debug.xcconfig"; sourceTree = "<group>"; };
+		8A883B524E96F2D902967D51 /* Pods_KipitCute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KipitCute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B1BAD0D7C330896C228B5D /* Pods_KipitCuteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KipitCuteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B351F242D68A19698BF66777 /* Pods_KipitCute_KipitCuteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KipitCute_KipitCuteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5B65931F010E87317C673F /* Pods-KipitCute-KipitCuteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KipitCute-KipitCuteUITests.debug.xcconfig"; path = "Target Support Files/Pods-KipitCute-KipitCuteUITests/Pods-KipitCute-KipitCuteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D082797BB4751002BEC3ED68 /* Pods-KipitCuteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KipitCuteTests.debug.xcconfig"; path = "Target Support Files/Pods-KipitCuteTests/Pods-KipitCuteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1D793E0A08C49CA3502BD32 /* Pods-KipitCute-KipitCuteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KipitCute-KipitCuteUITests.release.xcconfig"; path = "Target Support Files/Pods-KipitCute-KipitCuteUITests/Pods-KipitCute-KipitCuteUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DFB1EE87512FC97315CE837 /* Pods_KipitCute.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E684703482756347F584187 /* Pods_KipitCuteTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B752ABF1ADB01A653BB7BB8 /* Pods_KipitCute_KipitCuteUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				0B7769D1287148B60001CD4A /* KipitCuteTests */,
 				0B7769DB287148B60001CD4A /* KipitCuteUITests */,
 				0B7769B6287148B30001CD4A /* Products */,
+				F563B6723E2D3C1D791DAC0E /* Pods */,
+				5F97B10E0723E635192A0BB7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +147,30 @@
 			path = KipitCuteUITests;
 			sourceTree = "<group>";
 		};
+		5F97B10E0723E635192A0BB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A883B524E96F2D902967D51 /* Pods_KipitCute.framework */,
+				B351F242D68A19698BF66777 /* Pods_KipitCute_KipitCuteUITests.framework */,
+				A6B1BAD0D7C330896C228B5D /* Pods_KipitCuteTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F563B6723E2D3C1D791DAC0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F12C92B776FE83E264F4EFC /* Pods-KipitCute.debug.xcconfig */,
+				338C85AD6CCF2E61031A9050 /* Pods-KipitCute.release.xcconfig */,
+				CC5B65931F010E87317C673F /* Pods-KipitCute-KipitCuteUITests.debug.xcconfig */,
+				E1D793E0A08C49CA3502BD32 /* Pods-KipitCute-KipitCuteUITests.release.xcconfig */,
+				D082797BB4751002BEC3ED68 /* Pods-KipitCuteTests.debug.xcconfig */,
+				387D6C14345B085B76882C29 /* Pods-KipitCuteTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +178,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B7769E2287148B60001CD4A /* Build configuration list for PBXNativeTarget "KipitCute" */;
 			buildPhases = (
+				F8165F34B953F2B0F494CF41 /* [CP] Check Pods Manifest.lock */,
 				0B7769B1287148B30001CD4A /* Sources */,
 				0B7769B2287148B30001CD4A /* Frameworks */,
 				0B7769B3287148B30001CD4A /* Resources */,
@@ -154,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B7769E5287148B60001CD4A /* Build configuration list for PBXNativeTarget "KipitCuteTests" */;
 			buildPhases = (
+				1CF1C1FF308B650C7571B0E1 /* [CP] Check Pods Manifest.lock */,
 				0B7769CA287148B60001CD4A /* Sources */,
 				0B7769CB287148B60001CD4A /* Frameworks */,
 				0B7769CC287148B60001CD4A /* Resources */,
@@ -172,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B7769E8287148B60001CD4A /* Build configuration list for PBXNativeTarget "KipitCuteUITests" */;
 			buildPhases = (
+				25753BE28C300198BD09D0E3 /* [CP] Check Pods Manifest.lock */,
 				0B7769D4287148B60001CD4A /* Sources */,
 				0B7769D5287148B60001CD4A /* Frameworks */,
 				0B7769D6287148B60001CD4A /* Resources */,
@@ -255,6 +299,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CF1C1FF308B650C7571B0E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KipitCuteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25753BE28C300198BD09D0E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KipitCute-KipitCuteUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8165F34B953F2B0F494CF41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KipitCute-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0B7769B1287148B30001CD4A /* Sources */ = {
@@ -436,6 +549,7 @@
 		};
 		0B7769E3287148B60001CD4A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F12C92B776FE83E264F4EFC /* Pods-KipitCute.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +578,7 @@
 		};
 		0B7769E4287148B60001CD4A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 338C85AD6CCF2E61031A9050 /* Pods-KipitCute.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -492,6 +607,7 @@
 		};
 		0B7769E6287148B60001CD4A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D082797BB4751002BEC3ED68 /* Pods-KipitCuteTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +628,7 @@
 		};
 		0B7769E7287148B60001CD4A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 387D6C14345B085B76882C29 /* Pods-KipitCuteTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +649,7 @@
 		};
 		0B7769E9287148B60001CD4A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC5B65931F010E87317C673F /* Pods-KipitCute-KipitCuteUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +668,7 @@
 		};
 		0B7769EA287148B60001CD4A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1D793E0A08C49CA3502BD32 /* Pods-KipitCute-KipitCuteUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
